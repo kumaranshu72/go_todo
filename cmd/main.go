@@ -1,13 +1,14 @@
 package main
 
 import (
-	"fmt"
+	"go_todo/config"
 )
 
 const (
-	config = "config/reader"
+	configPath = "config/reader"
 )
 
 func main() {
-	fmt.Printf("Hello World")
+	config.GetConfig(configPath)
+
 }
