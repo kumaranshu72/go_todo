@@ -12,7 +12,7 @@ const (
 )
 
 var (
-	config *viper.viper
+	config *viper.Viper
 	once   sync.Once
 )
 

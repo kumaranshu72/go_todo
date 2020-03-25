@@ -1,0 +1,13 @@
+#TOML config file.
+
+[DEVELOPMENT]
+ServerPort        = 8060
+MYSQLHost         = "dev-mysqlv1.licious.in"
+MYSQLHostPort     = 3306
+MYSQLHostUser     = "root"
+MYSQLHostPassword = "[q9UZ}w4]jta~+eB"
+GinRunMode        = "debug"
+
+[production]
+ServerPort      = 8060
+GinRunMode      = "release"
